@@ -4,7 +4,7 @@
 		"type": "plugin",
 		"name": "magento quickpay",
 		"version": "0.55",
-		"description": "",
+		"description": "magento plugin using quickpay",
 		"url": "",
 		"other versions":
 			{
