@@ -25,11 +25,14 @@
 		"version": "0.55",
 		"description": "woocommerce plugin using quickpay",
 		"url": "",
-		"batters":
+		"other versions":
 			{
-				"batter":
+				"version":
 					[
-						{ "id": "1001", "type": "Regular" }
+						{ "id": "1001", "type": "Regular" },
+						{ "id": "1002", "type": "Chocolate" },
+						{ "id": "1003", "type": "Blueberry" },
+						{ "id": "1004", "type": "Devil's Food" }
 					]
 			},
 		
@@ -39,12 +42,14 @@
 		"type": "donut",
 		"name": "Old Fashioned",
 		"ppu": 0.55,
-		"batters":
+		"other versions":
 			{
-				"batter":
+				"version":
 					[
 						{ "id": "1001", "type": "Regular" },
-						{ "id": "1002", "type": "Chocolate" }
+						{ "id": "1002", "type": "Chocolate" },
+						{ "id": "1003", "type": "Blueberry" },
+						{ "id": "1004", "type": "Devil's Food" }
 					]
 			},
 		
