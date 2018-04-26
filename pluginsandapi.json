@@ -87,5 +87,22 @@
 					]
 			},
 		
+	},
+	{
+		"id": "0006",
+		"type": "plugin",
+		"name": "opencart quickpay",
+		"version": "0.55",
+		"other versions":
+			{
+				"version":
+					[
+						{ "id": "1001", "type": "Regular" },
+						{ "id": "1002", "type": "Chocolate" },
+						{ "id": "1003", "type": "Blueberry" },
+						{ "id": "1004", "type": "Devil's Food" }
+					]
+			},
+		
 	}
 ]
