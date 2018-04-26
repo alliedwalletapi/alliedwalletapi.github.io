@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<install version="1.5" type="plugin" group="vmpayment" method="upgrade">
+    <name>VM - Payment, AlliedWallet</name>
+    <creationDate>July 04 2012</creationDate>
+    <author>Lyra Network</author>
+    <authorEmail>support@alliedwallet.eu</authorEmail>
+    <authorUrl>http://www.lyra-network.com</authorUrl>
+    <copyright>Copyright Allied Wallet</copyright>
+    <license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+    <version>2.0.8c</version>
+    <description>
+    	<![CDATA[<a href="http://www.alliedwallet.com" target="_blank">AlliedWallet</a> is a multi bank payment provider. ]]>
+    </description>
+
+    <files>
+	<filename plugin="alliedwallet">alliedwallet.php</filename>
+	<folder>alliedwallet</folder>
+    </files>
+
+    <languages>
+	<language tag="en-GB">languageBE/en-GB.plg_vmpayment_alliedwallet.ini</language>
+	<language tag="fr-FR">languageBE/fr-FR.plg_vmpayment_alliedwallet.ini</language>
+    </languages>
+
+    <media folder="images" destination="../images/stories/virtuemart/payment">
+	<filename>AlliedWallet.png</filename>
+    </media>
+
+    <params addpath="/plugins/vmpayment/alliedwallet/elements" />
+    <params addpath="/plugins/vmpayment/alliedwallet/alliedwallet/elements" />
+
+    <params addpath="/administrator/components/com_virtuemart/elements">
+	<param type="vmjpluginwarning" />
+	
+	
+	<param type="spacer" default="" level="level1" />
+	
+	<param type="alliedwalletlabel" label="VMPAYMENT_ALLIEDWALLET_MODULE_INFORMATION_TITLE" level="level1" />
+	
+	
+	
+	<param type="spacer" default="" level="level1" />
+	
+	<param type="alliedwalletlabel" label="VMPAYMENT_ALLIEDWALLET_PAYMENT_MODULE_SETTINGS" level="level1" />
+	<param	name="payment_logos" type="vmfiles" label="VMPAYMENT_ALLIEDWALLET_LOGOS"
+		description="VMPAYMENT_ALLIEDWALLET_LOGOS_DESC"
+		directory="/images/stories/virtuemart/payment"
+		default="alliedwallet.jpg" hide_default="1" hide_none="1"
+		stripext="0" exclude="^_" />
+	
+	
+	<param type="spacer" default="" level="level1" />
+	
+	<param type="alliedwalletlabel" label="VMPAYMENT_ALLIEDWALLET_PAYMENT_GATEWAY_ACCESS" level="level1" />
+	<param name="platform_url" type="text" size="50" default="https://quickpay.alliedwallet.com" label="VMPAYMENT_ALLIEDWALLET_PLATFORM_URL" description="VMPAYMENT_ALLIEDWALLET_PLATFORM_URL_DESC"/>
+
+	<param name="merchant_id" type="text" size="40" default="" label="VMPAYMENT_ALLIEDWALLET_MERCHANT_ID" description="VMPAYMENT_ALLIEDWALLET_MERCHANT_ID_DESC"/>
+	<param name="site_id" type="text" size="40" default="" label="VMPAYMENT_ALLIEDWALLET_SITE_ID" description="VMPAYMENT_ALLIEDWALLET_SITE_ID_DESC"/>
+	<param name="token" type="text" size="80" default="" label="VMPAYMENT_ALLIEDWALLET_TOKEN" description="VMPAYMENT_ALLIEDWALLET_TOKEN_DESC"/>
+	
+	
+	<param type="spacer" default="" level="level1" />
+	
+	<param type="alliedwalletlabel" label="VMPAYMENT_ALLIEDWALLET_RETURN_OPTIONS" level="level1" />
+
+	<!-- <param name="silent_url" type="alliedwalleturl" label="VMPAYMENT_ALLIEDWALLET_URL_CHECK" default="index.php?option=com_virtuemart&amp;view=pluginresponse&amp;task=pluginnotification&amp;tmpl=component" editable="false"/>-->
+	<param name="order_success_status" type="vmorderstate" scope="com_virtuemart" default="C" label="VMPAYMENT_ALLIEDWALLET_ORDER_SUCCESS_STATUS" description="VMPAYMENT_ALLIEDWALLET_ORDER_SUCCESS_STATUS_DESC" />
+	<param name="order_failure_status" type="vmorderstate" scope="com_virtuemart" default="X" label="VMPAYMENT_ALLIEDWALLET_ORDER_FAILURE_STATUS" description="VMPAYMENT_ALLIEDWALLET_ORDER_FAILURE_STATUS_DESC" />
+	
+    </params>
+</install>
