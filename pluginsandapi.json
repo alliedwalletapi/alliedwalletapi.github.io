@@ -10,10 +10,10 @@
 			{
 				"version":
 					[
-						{ "id": "1001", "type": "Regular" },
-						{ "id": "1002", "type": "Chocolate" },
-						{ "id": "1003", "type": "Blueberry" },
-						{ "id": "1004", "type": "Devil's Food" }
+						{ "id": "1001", "type": "Regular", "url": "" },
+						{ "id": "1002", "type": "Chocolate", "url": "" },
+						{ "id": "1003", "type": "Blueberry", "url": "" },
+						{ "id": "1004", "type": "Devil's Food", "url": "" }
 					]
 			},
 		
@@ -29,10 +29,10 @@
 			{
 				"version":
 					[
-						{ "id": "1001", "type": "Regular" },
-						{ "id": "1002", "type": "Chocolate" },
-						{ "id": "1003", "type": "Blueberry" },
-						{ "id": "1004", "type": "Devil's Food" }
+						{ "id": "1001", "type": "Regular", "url": "" },
+						{ "id": "1002", "type": "Chocolate", "url": "" },
+						{ "id": "1003", "type": "Blueberry", "url": "" },
+						{ "id": "1004", "type": "Devil's Food", "url": "" }
 					]
 			},
 		
@@ -46,10 +46,10 @@
 			{
 				"version":
 					[
-						{ "id": "1001", "type": "Regular" },
-						{ "id": "1002", "type": "Chocolate" },
-						{ "id": "1003", "type": "Blueberry" },
-						{ "id": "1004", "type": "Devil's Food" }
+						{ "id": "1001", "type": "Regular", "url": "" },
+						{ "id": "1002", "type": "Chocolate", "url": "" },
+						{ "id": "1003", "type": "Blueberry", "url": "" },
+						{ "id": "1004", "type": "Devil's Food", "url": "" }
 					]
 			},
 		
@@ -63,10 +63,10 @@
 			{
 				"version":
 					[
-						{ "id": "1001", "type": "Regular" },
-						{ "id": "1002", "type": "Chocolate" },
-						{ "id": "1003", "type": "Blueberry" },
-						{ "id": "1004", "type": "Devil's Food" }
+						{ "id": "1001", "type": "Regular", "url": "" },
+						{ "id": "1002", "type": "Chocolate", "url": "" },
+						{ "id": "1003", "type": "Blueberry", "url": "" },
+						{ "id": "1004", "type": "Devil's Food", "url": "" }
 					]
 			},
 		
@@ -80,10 +80,10 @@
 			{
 				"version":
 					[
-						{ "id": "1001", "type": "Regular" },
-						{ "id": "1002", "type": "Chocolate" },
-						{ "id": "1003", "type": "Blueberry" },
-						{ "id": "1004", "type": "Devil's Food" }
+						{ "id": "1001", "type": "Regular", "url": "" },
+						{ "id": "1002", "type": "Chocolate", "url": "" },
+						{ "id": "1003", "type": "Blueberry", "url": "" },
+						{ "id": "1004", "type": "Devil's Food", "url": "" }
 					]
 			},
 		
@@ -97,10 +97,10 @@
 			{
 				"version":
 					[
-						{ "id": "1001", "type": "Regular" },
-						{ "id": "1002", "type": "Chocolate" },
-						{ "id": "1003", "type": "Blueberry" },
-						{ "id": "1004", "type": "Devil's Food" }
+						{ "id": "1001", "type": "Regular", "url": "" },
+						{ "id": "1002", "type": "Chocolate", "url": "" },
+						{ "id": "1003", "type": "Blueberry", "url": "" },
+						{ "id": "1004", "type": "Devil's Food", "url": "" }
 					]
 			},
 		
