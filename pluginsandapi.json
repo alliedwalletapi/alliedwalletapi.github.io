@@ -1,10 +1,11 @@
 [
 	{
 		"id": "0001",
-		"type": "donut",
-		"name": "Cake",
-		"ppu": 0.55,
-		"batters":
+		"type": "plugin",
+		"name": "magento quickpay",
+		"version": "0.55",
+		"url": ""
+		"other versions":
 			{
 				"batter":
 					[
