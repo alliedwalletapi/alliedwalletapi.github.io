@@ -39,9 +39,43 @@
 	},
 	{
 		"id": "0003",
-		"type": "donut",
-		"name": "Old Fashioned",
-		"ppu": 0.55,
+		"type": "plugin",
+		"name": "oscommerce quickpay",
+		"version": "0.55",
+		"other versions":
+			{
+				"version":
+					[
+						{ "id": "1001", "type": "Regular" },
+						{ "id": "1002", "type": "Chocolate" },
+						{ "id": "1003", "type": "Blueberry" },
+						{ "id": "1004", "type": "Devil's Food" }
+					]
+			},
+		
+	},
+	{
+		"id": "0004",
+		"type": "plugin",
+		"name": "prestashop quickpay",
+		"version": "0.55",
+		"other versions":
+			{
+				"version":
+					[
+						{ "id": "1001", "type": "Regular" },
+						{ "id": "1002", "type": "Chocolate" },
+						{ "id": "1003", "type": "Blueberry" },
+						{ "id": "1004", "type": "Devil's Food" }
+					]
+			},
+		
+	},
+	{
+		"id": "0005",
+		"type": "plugin",
+		"name": "virtuemart quickpay",
+		"version": "0.55",
 		"other versions":
 			{
 				"version":
