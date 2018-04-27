@@ -6,20 +6,40 @@
   
   
 <body>
+  
+  
+  <div id="id01"></div>
 <script>
-  var allQuestions = new Array();
+function myFunction(arr) {
+    var out = "";
+    var i;
+    for(i = 0; i<arr.length; i++) {
+        out += '<a href="' + arr[i].url + '">' + 
+        arr[i].display + '</a><br>';
+    }
+    document.getElementById("id01").innerHTML = out;
+}
+</script>
+
+<script src="myTutorials.js"></script>
+
+  
+  
+  
+//<script>
+//  var allQuestions = new Array();
     
-function loadQuestions() {
-    $.getJSON('pluginsandapi.json', function (data) {
-        allQuestions = data.quiz;
-    })
-    .error(function() {
-        console.log('error: JSON not loaded'); 
-    })
-    .done(function() {
-        console.log( "JSON loaded!" );
-        printQuestion(allQuestions[0]); 
-    });
+//function loadQuestions() {
+  //  $.getJSON('pluginsandapi.json', function (data) {
+    //    allQuestions = data.quiz;
+   // })
+    //.error(function() {
+     //   console.log('error: JSON not loaded'); 
+   // })
+   // .done(function() {
+     //   console.log( "JSON loaded!" );
+       // printQuestion(allQuestions[0]); 
+   // });
 }
   
   </script>
