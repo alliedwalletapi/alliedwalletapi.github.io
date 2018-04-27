@@ -1,8 +1,28 @@
 
 <!DOCTYPE html>
 <html>
+  <head></head>
+  
+  
+  
 <body>
-
+<script>
+  var allQuestions = new Array();
+    
+function loadQuestions() {
+    $.getJSON('pluginsandapi.json', function (data) {
+        allQuestions = data.quiz;
+    })
+    .error(function() {
+        console.log('error: JSON not loaded'); 
+    })
+    .done(function() {
+        console.log( "JSON loaded!" );
+        printQuestion(allQuestions[0]); 
+    });
+}
+  
+  </script>
 <h1>My First Heading</h1>
 <p>My first paragraph.</p>
 
