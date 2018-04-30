@@ -133,6 +133,26 @@
                         <div class="sort-az" style="cursor: pointer;"><i aria-hidden="true" class="fa fa-sort-alpha-asc"></i></div>
                 </div></header>
                 <section class="tiles">
+                        
+                        
+                        
+                        
+                        <p id="demo"></p>
+
+<script>
+var xmlhttp = new XMLHttpRequest();
+xmlhttp.onreadystatechange = function() {
+    if (this.readyState == 4 && this.status == 200) {
+        var myObj = JSON.parse(this.responseText);
+        document.getElementById("demo").innerHTML = myObj.name;
+    }
+};
+xmlhttp.open("GET", "json_demo.js", true);
+xmlhttp.send();
+</script>
+
+                        
+                        
                         <article id="amazon-s3-api" class="articles-iterate style1"><span class="image"><img src="./index_files/pic05.jpg" alt=""></span>
                                 <a><h2>Magento Plugin</h2><div class="content">
                                         <p>Operations, related request and response structures, and error codes to enable you to store data in the cloud.</p>
