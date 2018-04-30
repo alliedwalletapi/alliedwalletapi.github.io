@@ -6,7 +6,20 @@
   
   
 <body>
+  <script>
   
+  var allQuestions = new Array();
+    
+function loadQuestions() {
+    $.getJSON('question.json', function (data) {
+        allQuestions = data.quiz;
+    }).error(function(){
+            console.log('error: json not loaded');
+        });
+    });
+}
+  
+  </script>
   
   <div id="id01"></div>
   
