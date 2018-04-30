@@ -1,0 +1,25 @@
+{
+     "quiz": 
+     [
+         {
+             "question": "Question 1",
+             "a": "Answer a",
+             "b": "Answer b",
+             "c": "Answer c",
+             "correct": "a"
+         },
+         {
+             "question": "Question 2",
+             "a": "Answer a",
+             "b": "Answer b",
+             "c": "Answer c",
+             "correct": "b"
+         },
+         {
+             "question": "Question 3",
+             "a": "Answer a",
+             "b": "Answer b",
+             "c": "Answer c",
+             "correct": "c"
+         }
+     ]
