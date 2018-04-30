@@ -11,7 +11,7 @@
   var allQuestions = new Array();
     
 function loadQuestions() {
-    $.getJSON('question.json', function (data) {
+    $.getJSON('questions.json', function (data) {
         allQuestions = data.quiz;
     }).error(function(){
             console.log('error: json not loaded');
