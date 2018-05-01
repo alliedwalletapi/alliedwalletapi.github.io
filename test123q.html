@@ -47,6 +47,24 @@ body {
  
 </HEAD>
 <BODY>
+	
+	<script>
+var people = [ 
+  [ "Joseph",27,"United States",["blue","black"] ],
+  [ "Maria",21,"Uraguay",["brown","green"] ], 
+  [ "Brian",35,"United Kingdom",["green","red"] ], 
+  [ "Susan",42,"Australia",["blue","blonde"] ]
+];
+// people[2][3][1] = "brown";
+// document.write(people[2][3][1]);
+for(var i = 0; i < people.length; i++) {
+    document.write("<h2>"+people[i][0]+"</h2>");
+    for(var j = 0; j < people[i].length; j++) {
+        document.write(people[i][j]+"<br>");
+    }
+}
+</script>
+	
 	<br>
 	<br>
 	<br>
