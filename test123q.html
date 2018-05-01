@@ -131,7 +131,13 @@ function myFunction(arr) {
     var out = "";
     var i;
     for(i = 0; i < arr.length; i++) {
-        out += '<div class="content"><a href="' + arr[i].url + '">' + 
+        out += '<article id="businessgov-api" class="articles-iterate style1">
+        <span class="image"><img src="./index_files/pic05.jpg" alt=""></span>
+        <a><h2>Business.gov API</h2>
+        <div class="content">
+	<p>Create the Uber for anything , A small business API for on-demand fulfillment.</p>
+	</div></a>
+	</article><div class="content"><a href="' + arr[i].url + '">' + 
         arr[i].display + '</a><br></div>';
     }
     document.getElementById("id01").innerHTML = out;
