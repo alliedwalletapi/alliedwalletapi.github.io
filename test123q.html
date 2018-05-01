@@ -132,7 +132,7 @@ function myFunction(arr) {
     var i;
     for(i = 0; i < arr.length; i++) {
         out += '<article id="' + arr[i].display + '"' + 'class="' + 'articles-iterate style1">' +
-        '<span class="' + 'image"' + '><img src="' + './index_files/pic05.jpg"' + 'alt="' + '"' + '></span><a><h2>' + arr[i].display + '</h2><div class="' + 'content"' + '><p>Create the Uber for anything A small business API for on-demand fulfillment.</p></div></a></article>' + '<div class="content"><a href="' + arr[i].url + '">' + 
+        '<span class="' + 'image"' + '><img src="' + './index_files/pic05.jpg"' + 'alt="' + '"' + '></span><a><h2>' + arr[i].display + '</h2><div class="' + 'content"' + '><p>' + arr[i].description + '</p></div></a></article>' + '<div class="content"><a href="' + arr[i].url + '">' + 
         arr[i].display + '</a><br></div>';
     }
     document.getElementById("id01").innerHTML = out;
