@@ -8,6 +8,22 @@ body {
 		url('https://cdn.crunchify.com/wp-content/uploads/2013/03/Crunchify.bg_.300.png');
 }
 </style>
+	
+		
+		
+<script>
+var xmlhttp = new XMLHttpRequest();
+xmlhttp.onreadystatechange = function() {
+    if (this.readyState == 4 && this.status == 200) {
+        var myObj = JSON.parse(this.responseText);
+        document.getElementById("demo").innerHTML = myObj.name;
+    }
+};
+xmlhttp.open("GET", "json_demo.js", true);
+xmlhttp.send();
+</script>
+
+	
 <script>
 	var graph = {
 		"sparkData" : [ {
