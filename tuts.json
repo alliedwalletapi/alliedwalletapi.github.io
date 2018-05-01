@@ -10,11 +10,19 @@
 },
 {
 "display": "OpenCart",
-"url": "https://www.w3schools.com/opencart/AW_Open_Cart2.0-NextGen.zip"
+"url": "https://www.w3schools.com/opencart/AW_Open_Cart2.0-NextGen.zip",
+  "type": "plugin",
+"other versions": {
+                    "version":
+                              []
 },
 {
 "display": "Oscommerce",
-"url": "https://www.w3schools.com/js/default.asp"
+"url": "https://www.w3schools.com/js/default.asp",
+  "type": "plugin",
+"other versions": {
+                    "version":
+                              []
 },
 {
 "display": "Prestashop",
