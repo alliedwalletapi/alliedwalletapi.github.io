@@ -131,8 +131,8 @@ function myFunction(arr) {
     var out = "";
     var i;
     for(i = 0; i < arr.length; i++) {
-        out += '<a href="' + arr[i].url + '">' + 
-        arr[i].display + '</a><br>';
+        out += '<div class="content"><a href="' + arr[i].url + '">' + 
+        arr[i].display + '</a><br></div>';
     }
     document.getElementById("id01").innerHTML = out;
 }
